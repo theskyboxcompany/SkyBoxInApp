@@ -1,0 +1,32 @@
+{
+  "name": "OneFlow",
+  "version": "0.1.0",
+  "summary": "InApp purchase with local receipt verification.",
+  "description": "Used to hanlde subscription InApp purchase with local receipt verification.",
+  "homepage": "https://github.com/rohantryskybox/OneFlow",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rohantryskybox": "rohan@tryskybox.com"
+  },
+  "source": {
+    "git": "https://github.com/rohantryskybox/OneFlow.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "OneFlow/Classes/**/*",
+  "resource_bundles": {
+    "OneFlow": [
+      "OneFlow/Assets/**/*"
+    ]
+  },
+  "dependencies": {
+    "OpenSSL-Universal": [
+      "1.1.180"
+    ]
+  }
+}

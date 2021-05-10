@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'OneFlow_Example' do
+  pod 'OneFlow', :path => '../'
+
+  target 'OneFlow_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
