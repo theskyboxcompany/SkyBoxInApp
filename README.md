@@ -30,6 +30,8 @@ target 'OneFlowPodExample' do
   pod 'OneFlow'
 end
 ```
+- To validate the receipt locally, Library will require "AppleIncRootCertificate.cer" to be in main application bundle.
+To download the certificate Go to https://www.apple.com/certificateauthority/ and click on "AppleIncRootCertificate.cer". Once certificate is downloaded add it into your main bundle.
 ## How to use
 
 - To check if user is already subscribed, assigned this completion block and call verifyReceipt()
