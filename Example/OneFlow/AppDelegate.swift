@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         SubscriptionManager.shared.completionBlock = {[weak self] (isSuccess, error) in
             if let self = self {
                 if isSuccess == true {
-                    print("it is success")
+                    print("It is premium subscription")
                 } else {
                     print("premium expired")
                 }

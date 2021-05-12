@@ -16,6 +16,7 @@
 			dependencies = (
 			);
 			name = "OpenSSL-Universal";
+			productName = "OpenSSL-Universal";
 		};
 /* End PBXAggregateTarget section */
 
@@ -33,7 +34,6 @@
 		B1026C334C975AE7E3205C62D98D2461 /* pkcs7_union_accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 189DC1AA07AB8F3994630266C91619EE /* pkcs7_union_accessors.c */; };
 		BE4531ABBE2082D12A3800458015B7D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C792517BF3FBE22FD29CAC4C83E692D3 /* OneFlow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F268BC94CF8DDB7BB6C4F8A0F3301DD8 /* OneFlow.bundle */; };
-		D273DC1E8A85B1DD6749AF0432B4A4FE /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 88533ABFB251AB2082A1B9159A73B007 /* AppleIncRootCertificate.cer */; };
 		D9AA8EECA37B8D585E106BE3CEE87D99 /* Pods-OneFlow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 486D3B5AB23F5DE0D375BCBF569F2673 /* Pods-OneFlow_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -78,14 +78,14 @@
 /* Begin PBXFileReference section */
 		0585F0DDB491D83CA45D213C5A7CF57F /* pkcs7_union_accessors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7_union_accessors.h; path = OneFlow/Classes/pkcs7_union_accessors.h; sourceTree = "<group>"; };
 		127FDE9BFF1C939DCF6A250D5EFA5A0A /* Pods-OneFlow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneFlow_Tests-umbrella.h"; sourceTree = "<group>"; };
-		189DC1AA07AB8F3994630266C91619EE /* pkcs7_union_accessors.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pkcs7_union_accessors.c; path = OneFlow/Classes/pkcs7_union_accessors.c; sourceTree = "<group>"; };
+		189DC1AA07AB8F3994630266C91619EE /* pkcs7_union_accessors.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pkcs7_union_accessors.c; path = OneFlow/Classes/pkcs7_union_accessors.c; sourceTree = "<group>"; };
 		1C46E43AC9B90FB0164363792AE27376 /* Pods-OneFlow_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneFlow_Example-Info.plist"; sourceTree = "<group>"; };
 		1F5A7A3F58CB5F0F5C21CF92675D3C89 /* OpenSSL-Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.release.xcconfig"; sourceTree = "<group>"; };
 		2676A871AEC0F0398D4A9B7F7F062DF5 /* LocalReceiptValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalReceiptValidator.swift; path = OneFlow/Classes/LocalReceiptValidator.swift; sourceTree = "<group>"; };
 		371B795C9CA5C59DEC5AF5A70F59CC66 /* Pods-OneFlow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneFlow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D74889844BCD72455F62A0413A7307B /* OneFlow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OneFlow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D74889844BCD72455F62A0413A7307B /* OneFlow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OneFlow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3ECF5CFE7A59701B969597B2A754B0FD /* Pods-OneFlow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneFlow_Example-dummy.m"; sourceTree = "<group>"; };
-		458A4765C63E66D4F60815D0AC16CB01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		458A4765C63E66D4F60815D0AC16CB01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		486D3B5AB23F5DE0D375BCBF569F2673 /* Pods-OneFlow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneFlow_Tests-dummy.m"; sourceTree = "<group>"; };
 		4954D538677E0B5FB85E6EFA0D648AB8 /* Pods-OneFlow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneFlow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		4A51B5465AD3B9E4C4ECD2D921305503 /* ResourceBundle-OneFlow-OneFlow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OneFlow-OneFlow-Info.plist"; sourceTree = "<group>"; };
@@ -93,32 +93,31 @@
 		69C39FDB1BD6B25EEA14CE24AC9CA01F /* OneFlow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OneFlow.modulemap; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		763B660B170D2131B061F4A684310E05 /* Pods-OneFlow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneFlow_Tests.modulemap"; sourceTree = "<group>"; };
-		79B79DC245AFA797DBCD4471CE3FA2D1 /* OneFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OneFlow.framework; path = OneFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88533ABFB251AB2082A1B9159A73B007 /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; includeInIndex = 1; name = AppleIncRootCertificate.cer; path = OneFlow/Assets/AppleIncRootCertificate.cer; sourceTree = "<group>"; };
-		89D77DC8EF27711FFF16E8B5E01C28CA /* Pods_OneFlow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneFlow_Tests.framework; path = "Pods-OneFlow_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79B79DC245AFA797DBCD4471CE3FA2D1 /* OneFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OneFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D77DC8EF27711FFF16E8B5E01C28CA /* Pods_OneFlow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneFlow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CBA7D7467EC512D376ED2B068462916 /* OneFlow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OneFlow-dummy.m"; sourceTree = "<group>"; };
 		8F976BC3D6937311F460759CD9BDDE31 /* Pods-OneFlow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneFlow_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9364B64BF5657A2B9599D7984A75ECA0 /* OneFlow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneFlow-prefix.pch"; sourceTree = "<group>"; };
 		95E895D243A799C3535979EF867E3585 /* Pods-OneFlow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneFlow_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A00901BCB93A4430578C33A30A47A8DB /* OpenSSL-Universal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OpenSSL-Universal-xcframeworks.sh"; sourceTree = "<group>"; };
 		A15FE7449D4C4301B389AA6F884C2342 /* OneFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneFlow.debug.xcconfig; sourceTree = "<group>"; };
 		A20393185B941F07D3F7CAB29C047427 /* Pods-OneFlow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneFlow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		AADCA1D8F987E5153FA1ECE55D2B2351 /* OpenSSL.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenSSL.xcframework; path = Frameworks/OpenSSL.xcframework; sourceTree = "<group>"; };
+		AADCA1D8F987E5153FA1ECE55D2B2351 /* OpenSSL.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = Frameworks/OpenSSL.xcframework; sourceTree = "<group>"; };
 		AF66B22B9F456E3E562543D93EA93424 /* OneFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneFlow.release.xcconfig; sourceTree = "<group>"; };
 		B10D144CA206C6D076801BC8847B2C36 /* Pods-OneFlow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneFlow_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B2698F49FF856F3917A80B7F5A5583A6 /* SubscriptionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionManager.swift; path = OneFlow/Classes/SubscriptionManager.swift; sourceTree = "<group>"; };
 		BAC615776B5264DABBAC4A2091EF8F85 /* Pods-OneFlow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneFlow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		BC5360722CCCB68A50A3DAB119736E9C /* Pods-OneFlow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneFlow_Example.modulemap"; sourceTree = "<group>"; };
-		BFCA17730CB299AC8E7034AC35D90DDE /* Pods_OneFlow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OneFlow_Example.framework; path = "Pods-OneFlow_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCA17730CB299AC8E7034AC35D90DDE /* Pods_OneFlow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneFlow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBA942D70B67070CCEF49DF777ACD982 /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
 		D02E9BB0B4B7409D7AC15DB352D944DB /* Pods-OneFlow_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneFlow_Tests-Info.plist"; sourceTree = "<group>"; };
 		D4C16FF8DE6E302A6BBC09D1C7964737 /* Pods-OneFlow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneFlow_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E226E498B20A8F0EA09DF49A56CECC31 /* Pods-OneFlow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneFlow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E5623AD594EA1D65787CD1826FA6B425 /* Pods-OneFlow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneFlow_Example-umbrella.h"; sourceTree = "<group>"; };
-		F268BC94CF8DDB7BB6C4F8A0F3301DD8 /* OneFlow.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = OneFlow.bundle; path = "OneFlow-OneFlow.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F268BC94CF8DDB7BB6C4F8A0F3301DD8 /* OneFlow.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneFlow.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69D9E1D8DB8610D4D93CD4BAF41ED8F /* OneFlow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneFlow-umbrella.h"; sourceTree = "<group>"; };
-		F838680EF9F6A046E8A53490F215EAD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F838680EF9F6A046E8A53490F215EAD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,7 +204,6 @@
 				2D8C8302E198D06CDF276F3269E7D929 /* Frameworks */,
 				316A4EE1495B6DA8B1957F93D95A92A7 /* Support Files */,
 			);
-			name = "OpenSSL-Universal";
 			path = "OpenSSL-Universal";
 			sourceTree = "<group>";
 		};
@@ -265,7 +263,6 @@
 		C8B93189702FEB1B3C5FA35D5DE8BF94 /* OneFlow */ = {
 			isa = PBXGroup;
 			children = (
-				88533ABFB251AB2082A1B9159A73B007 /* AppleIncRootCertificate.cer */,
 				2676A871AEC0F0398D4A9B7F7F062DF5 /* LocalReceiptValidator.swift */,
 				189DC1AA07AB8F3994630266C91619EE /* pkcs7_union_accessors.c */,
 				0585F0DDB491D83CA45D213C5A7CF57F /* pkcs7_union_accessors.h */,
@@ -473,7 +470,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D273DC1E8A85B1DD6749AF0432B4A4FE /* AppleIncRootCertificate.cer in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -943,8 +939,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

@@ -15,11 +15,24 @@ public class SubscriptionManager: NSObject {
     /// Notification will be posted when user activates the subscription
     static let kPremiumActivateNotification = Notification.Name("PremiumSubscriptionActivated")
     
-    public var isPremiumUser = false {
-        didSet {
-            UserDefaults.standard.setValue(isPremiumUser, forKey: "isPremiumUser")
+    public var isPremiumUser: Bool {
+        set {
+            UserDefaults.standard.set(newValue, forKey: "isPremiumUser")
+        }
+        
+        get {
+            return UserDefaults.standard.bool(forKey: "isPremiumUser")
         }
     }
+    public enum PurchaseType {
+        case eitherNonConsumableOrSubscription
+        case nonConsumable
+        case subscription
+        case consumable
+    }
+    
+    public var purchaseType: PurchaseType = .eitherNonConsumableOrSubscription
+    public var nonConsumableProductID: String?
     
     public  var completionBlock: ((Bool, String?) -> Void)?
     private var currentProductID: String?
@@ -35,11 +48,6 @@ public class SubscriptionManager: NSObject {
             UserDefaults.standard.set(false, forKey: "WasPremiumActivated")
         }
         SKPaymentQueue.default().add(self)
-    }
-    
-    // use this function to get the current user premium status (true means premium is active)
-    public func getUserPremiumStatus() -> Bool {
-        return UserDefaults.standard.bool(forKey: "isPremiumUser")
     }
     
     public func getLocalizedPriceFor(_ identifires: [String], completion: @escaping (Bool, [String: Any]?, String?) -> Void) {
@@ -102,18 +110,42 @@ public class SubscriptionManager: NSObject {
             print("Parsed Receipt: \(parsedReceipt)")
             if let receipts = parsedReceipt.inAppPurchaseReceipts {
                 self.isPremiumUser = false
-                for r in receipts {
-                    if let expirationDate = r.subscriptionExpirationDate {
-                        let now = Date()
-                        if expirationDate > now {
-                            print("Subscription is active")
+                
+                if self.purchaseType == .subscription {
+                    //If product is subscription based, then check all receipt's expiration dates.
+                    for r in receipts {
+                        if let expirationDate = r.subscriptionExpirationDate {
+                            let now = Date()
+                            if expirationDate > now {
+                                print("Subscription is active")
+                                self.isPremiumUser = true
+                                break
+                            }
+                        }
+                    }
+                } else if self.purchaseType == .nonConsumable {
+                    //If product is non consumable, then check in all receipt if assinged product id exist or not.
+                    if receipts.first(where: { (receipt) -> Bool in
+                        return receipt.productIdentifier == self.nonConsumableProductID
+                    }) != nil {
+                        self.isPremiumUser = true
+                    }
+                } else if self.purchaseType == .eitherNonConsumableOrSubscription {
+                    for r in receipts {
+                        if let expirationDate = r.subscriptionExpirationDate {
+                            let now = Date()
+                            if expirationDate > now {
+                                print("Subscription is active")
+                                self.isPremiumUser = true
+                                break
+                            }
+                        } else if r.productIdentifier == self.nonConsumableProductID {
                             self.isPremiumUser = true
                             break
-                        } else {
-                            
                         }
                     }
                 }
+                
                 if self.isPremiumUser == true {
                     //Post notification if user is not premium
                     if UserDefaults.standard.bool(forKey: "WasPremiumActivated") == false {
@@ -134,7 +166,6 @@ public class SubscriptionManager: NSObject {
                     if let completion = self.completionBlock {
                         completion(false, "Subscription expired")
                     }
-                    
                 }
             }
             break
@@ -242,9 +273,18 @@ extension SubscriptionManager: SKPaymentTransactionObserver {
             case .purchased:
                 print("payment queue: purchased")
                 SKPaymentQueue.default().finishTransaction(transaction)
-                if self.isReceiptRefreshing == false {
-                    self.verifyReceipt()
+                if self.purchaseType == .consumable {
+                    //If product is consumable, then don't check receipt. Call completion block with success.
+                    if let completion = self.completionBlock {
+                        completion(true, nil)
+                    }
+                } else {
+                    //if product is non-consumable or subscription based, then verify the receipt.
+                    if self.isReceiptRefreshing == false {
+                        self.verifyReceipt()
+                    }
                 }
+                
                 break
             case .failed:
                 print("payment queue: Failed")
@@ -260,6 +300,7 @@ extension SubscriptionManager: SKPaymentTransactionObserver {
                 //If product is restore when user is buying it, then verify receipt.
                 //While buying product, It some times call this states. So verify receipt after that. In sandbox environment, It might have not refreshed receipt. So May be local receipt verification will be failed. If we try again 1-2 times then it will work.
                 if self.isForBuying == true {
+                    //Consider this state for non-consumable and subscription based product only.
                     self.verifyReceipt()
                 }
                 
