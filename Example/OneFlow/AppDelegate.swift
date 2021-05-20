@@ -17,10 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+//        SubscriptionManager.shared.nonConsumableProductID = kNonConsumableProductID
         SubscriptionManager.shared.completionBlock = {[weak self] (isSuccess, error) in
             if let self = self {
                 if isSuccess == true {
                     print("It is premium subscription")
+                    if let productInfo = SubscriptionManager.shared.productInfo {
+                        print("Purchased product: ", productInfo)
+                    }
                 } else {
                     print("premium expired")
                 }

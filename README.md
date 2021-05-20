@@ -84,6 +84,13 @@ SubscriptionManager.shared.startSubscriptionWithProductionID("Product ID")
 ```
 Once process is completed, It will call above assigned completion block with either success or error.
 
+- To find the product details which subscribed
+- Note - "productInfo" only available for Subscription or non-consumable products
+```ruby
+if let productInfo = SubscriptionManager.shared.productInfo {
+    print("Purchased product: ", productInfo)
+}
+```
 - To find localized of products
 ```ruby
 SubscriptionManager.shared.getLocalizedPriceFor(["Product ID 1", "Product ID 2", "Product ID 3"]) { (isSuccess, result, error) in

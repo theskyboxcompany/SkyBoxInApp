@@ -68,7 +68,7 @@ struct ParsedReceipt {
     let expirationDate: Date?
 }
 
-struct ParsedInAppPurchaseReceipt {
+struct ParsedInAppPurchaseReceipt: Codable {
     let quantity: Int?
     let productIdentifier: String?
     let transactionIdentifier: String?

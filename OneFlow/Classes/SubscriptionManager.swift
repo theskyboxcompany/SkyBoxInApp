@@ -24,6 +24,17 @@ public class SubscriptionManager: NSObject {
             return UserDefaults.standard.bool(forKey: "isPremiumUser")
         }
     }
+    
+    public var productInfo: [String: Any]? {
+        set {
+            UserDefaults.standard.set(newValue, forKey: "productInfo")
+        }
+        
+        get {
+            return UserDefaults.standard.value(forKey: "productInfo") as? [String: Any]
+        }
+    }
+    
     public enum PurchaseType {
         case eitherNonConsumableOrSubscription
         case nonConsumable
@@ -77,6 +88,7 @@ public class SubscriptionManager: NSObject {
             productsRequest.start()
         } else {
             if let completion = self.completionBlock {
+                self.productInfo = nil
                 completion(false, "Can not make payments")
             }
         }
@@ -107,7 +119,7 @@ public class SubscriptionManager: NSObject {
         case .success(let parsedReceipt):
             print("successfully validated receipt. Checking subscription dates")
 
-            print("Parsed Receipt: \(parsedReceipt)")
+//            print("Parsed Receipt: \(parsedReceipt)")
             if let receipts = parsedReceipt.inAppPurchaseReceipts {
                 self.isPremiumUser = false
                 
@@ -118,6 +130,7 @@ public class SubscriptionManager: NSObject {
                             let now = Date()
                             if expirationDate > now {
                                 print("Subscription is active")
+                                self.setupProductInfoFrom(r)
                                 self.isPremiumUser = true
                                 break
                             }
@@ -126,8 +139,14 @@ public class SubscriptionManager: NSObject {
                 } else if self.purchaseType == .nonConsumable {
                     //If product is non consumable, then check in all receipt if assinged product id exist or not.
                     if receipts.first(where: { (receipt) -> Bool in
-                        return receipt.productIdentifier == self.nonConsumableProductID
+                        if receipt.productIdentifier == self.nonConsumableProductID {
+                            self.setupProductInfoFrom(receipt)
+                            return true
+                        } else {
+                            return false
+                        }
                     }) != nil {
+                        
                         self.isPremiumUser = true
                     }
                 } else if self.purchaseType == .eitherNonConsumableOrSubscription {
@@ -137,9 +156,11 @@ public class SubscriptionManager: NSObject {
                             if expirationDate > now {
                                 print("Subscription is active")
                                 self.isPremiumUser = true
+                                self.setupProductInfoFrom(r)
                                 break
                             }
                         } else if r.productIdentifier == self.nonConsumableProductID {
+                            self.setupProductInfoFrom(r)
                             self.isPremiumUser = true
                             break
                         }
@@ -192,6 +213,19 @@ public class SubscriptionManager: NSObject {
             return numberFormatter.string(from: price)
         }
     }
+    
+    func setupProductInfoFrom(_ receipt: ParsedInAppPurchaseReceipt) {
+        do {
+            let data = try JSONEncoder().encode(receipt)
+                guard let dictionary = try JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [String: Any] else {
+                  throw NSError()
+                }
+            self.productInfo = dictionary
+        }
+        catch {
+            
+        }
+    }
 }
 
 extension SubscriptionManager: SKProductsRequestDelegate {
@@ -223,11 +257,13 @@ extension SubscriptionManager: SKProductsRequestDelegate {
             } else {
                 print(product.productIdentifier)
                 if let completion = self.completionBlock {
+                    self.productInfo = nil
                     completion(false, "Product id does not match")
                 }
             }
         } else {
             if let completion = self.completionBlock {
+                self.productInfo = nil
                 completion(false, "Product not found")
             }
         }
@@ -237,6 +273,7 @@ extension SubscriptionManager: SKProductsRequestDelegate {
         print("Request failed with error: \(error.localizedDescription)")
         if request is SKReceiptRefreshRequest {
             if let completion = self.completionBlock {
+                self.productInfo = nil
                 completion(false, "Subscription expired")
             }
         } else {
@@ -249,6 +286,7 @@ extension SubscriptionManager: SKProductsRequestDelegate {
             }
             
             if let completion = self.completionBlock {
+                self.productInfo = nil
                 completion(false, error.localizedDescription)
             }
         }
@@ -290,6 +328,7 @@ extension SubscriptionManager: SKPaymentTransactionObserver {
                 print("payment queue: Failed")
                 SKPaymentQueue.default().finishTransaction(transaction)
                 if let completion = self.completionBlock {
+                    self.productInfo = nil
                     completion(false, "Transaction failed")
                 }
                 break
@@ -313,6 +352,7 @@ extension SubscriptionManager: SKPaymentTransactionObserver {
     public func paymentQueue(_ queue: SKPaymentQueue, restoreCompletedTransactionsFailedWithError error: Error) {
         print("payment queue: restoring failed. error: \(error.localizedDescription)")
         if let completion = self.completionBlock {
+            self.productInfo = nil
             completion(false, error.localizedDescription)
         }
     }
