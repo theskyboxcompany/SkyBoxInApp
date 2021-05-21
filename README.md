@@ -91,7 +91,7 @@ if let productInfo = SubscriptionManager.shared.productInfo {
     print("Purchased product: ", productInfo)
 }
 ```
-- To find localized of products
+- To find localized price of products
 ```ruby
 SubscriptionManager.shared.getLocalizedPriceFor(["Product ID 1", "Product ID 2", "Product ID 3"]) { (isSuccess, result, error) in
             if isSuccess == true, let priceData = result {
@@ -103,6 +103,8 @@ SubscriptionManager.shared.getLocalizedPriceFor(["Product ID 1", "Product ID 2",
             }
         }
 ```
+Here priceData will be [String: String] dictionary where keys will be product id and values are price.
+
 - To Restore already purchased product
 ```ruby
 SubscriptionManager.shared.restoreCompletedTransactions()
@@ -114,7 +116,6 @@ SubscriptionManager.shared.completionBlock = {[weak self] (isSuccess, error) in
 ```
 Note - Assign "purchaseType" and "nonConsumableProductID" if you are dealing with such product types.
 
-Here priceData will be [String: String] dictionary where keys will be product id and values are price.
 ## Author
 
 rohantryskybox, rohan@tryskybox.com
