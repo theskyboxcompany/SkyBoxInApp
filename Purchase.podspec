@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint OneFlow.podspec' to ensure this is a
+# Be sure to run `pod lib lint Purchase.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'OneFlow'
+  s.name             = 'Purchase'
   s.version          = '1.0.5'
-  s.summary          = 'OneFlow Framework.'
+  s.summary          = 'InApp purchase with local receipt verification.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'OneFlow Framework Purchase, Survey'
+  s.description      = 'Used to hanlde subscription InApp purchase with local receipt verification.'
 
   s.homepage         = 'https://github.com/theskyboxcompany/OneFlow'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
   s.swift_version = '5'
-  s.source_files = 'OneFlow/Classes/**/*'
+  s.source_files = 'Purchase/Classes/**/*'
   
    #s.resource_bundles = {
    #  'OneFlow' => ['OneFlow/Assets/**/*']
@@ -37,12 +37,4 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'OpenSSL-Universal', '1.1.180'
-   s.subspec 'Survey' do |survey|
-       survey.source_files = 'Survey/Classes/**/*'
-       survey.resources = 'Survey/Assets/**/*'
-     end
-   s.subspec 'Purchase' do |purchase|
-       purchase.source_files = 'Purchase/Classes/**/*'
-       purchase.resources = 'Purchase/Assets/**/*'
-     end
 end

@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint OneFlow.podspec' to ensure this is a
+# Be sure to run `pod lib lint Survey.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Survey'
-  s.version          = '1.0.3'
-  s.summary          = 'InApp purchase with local receipt verification.'
+  s.version          = '1.0.5'
+  s.summary          = 'Survey for the app'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'Used to hanlde subscription InApp purchase with local receipt verification.'
+  s.description      = 'Survey for app with different types of UI elements.'
 
   s.homepage         = 'https://github.com/theskyboxcompany/OneFlow'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
