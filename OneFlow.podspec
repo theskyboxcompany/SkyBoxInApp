@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
   s.swift_version = '5'
   s.source_files = 'OneFlow/Classes/**/*'
   
-   s.resource_bundles = {
-     'OneFlow' => ['OneFlow/Assets/**/*']
-   }
+#   s.resource_bundles = {
+#     'OneFlow' => ['OneFlow/Assets/**/*']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
