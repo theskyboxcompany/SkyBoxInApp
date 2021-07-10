@@ -36,7 +36,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'OpenSSL-Universal', '1.1.180'
    s.subspec 'Survey' do |survey|
        survey.source_files = 'Survey/Classes/**/*'
        survey.resources = 'Survey/Assets/**/*'
