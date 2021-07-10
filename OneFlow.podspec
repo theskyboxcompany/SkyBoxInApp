@@ -43,5 +43,6 @@ Pod::Spec.new do |s|
    s.subspec 'Purchase' do |purchase|
        purchase.source_files = 'Purchase/Classes/**/*'
        purchase.resources = 'Purchase/Assets/**/*'
+       purchase.dependency 'OpenSSL-Universal', '1.1.180'
      end
 end
