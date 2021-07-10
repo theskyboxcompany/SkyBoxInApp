@@ -29,10 +29,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.swift_version = '5'
   s.source_files = 'Survey/Classes/**/*'
-  
-   #s.resource_bundles = {
-   #  'OneFlow' => ['OneFlow/Assets/**/*']
-   #}
+  s.resources = 'Survey/Assets/**/*'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

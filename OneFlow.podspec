@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
   s.swift_version = '5'
   s.source_files = 'OneFlow/Classes/**/*'
   
-   #s.resource_bundles = {
-   #  'OneFlow' => ['OneFlow/Assets/**/*']
-   #}
+   s.resource_bundles = {
+     'OneFlow' => ['OneFlow/Assets/**/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
      end
    s.subspec 'Purchase' do |purchase|
        purchase.source_files = 'Purchase/Classes/**/*'
-       purchase.resources = 'Purchase/Assets/**/*'
+#       purchase.resources = 'Purchase/Assets/**/*'
        purchase.dependency 'OpenSSL-Universal', '1.1.180'
      end
 end

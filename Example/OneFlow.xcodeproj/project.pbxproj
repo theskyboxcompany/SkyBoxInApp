@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		35594AD5C07279C9A1BAAE67 /* Pods_OneFlow_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A91589950361F2939EB853D /* Pods_OneFlow_Example.framework */; };
 		431474B1264BAEF500ACD955 /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 431474B0264BAEF500ACD955 /* AppleIncRootCertificate.cer */; };
+		43276ED92699CC2400ED0F1D /* OneFlowClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43276ED82699CC2400ED0F1D /* OneFlowClass.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		1759FF1674327F4CAE98B3EA /* OneFlow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OneFlow.podspec; path = ../OneFlow.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		431474B0264BAEF500ACD955 /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleIncRootCertificate.cer; sourceTree = "<group>"; };
 		431992E92699C3DB0078BC93 /* Purchase.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = Purchase.podspec; path = ../Purchase.podspec; sourceTree = "<group>"; };
+		43276ED82699CC2400ED0F1D /* OneFlowClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneFlowClass.swift; sourceTree = "<group>"; };
 		439D44CA2699B031008BD98E /* Survey.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = Survey.podspec; path = ../Survey.podspec; sourceTree = "<group>"; };
 		4A91589950361F2939EB853D /* Pods_OneFlow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneFlow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA86A9371C9B418A23EBA4B /* Pods-OneFlow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneFlow_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OneFlow_Tests/Pods-OneFlow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				43276ED82699CC2400ED0F1D /* OneFlowClass.swift */,
 				431474B0264BAEF500ACD955 /* AppleIncRootCertificate.cer */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -248,6 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				43276ED92699CC2400ED0F1D /* OneFlowClass.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
