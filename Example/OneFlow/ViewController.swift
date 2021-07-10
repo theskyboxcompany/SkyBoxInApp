@@ -27,7 +27,7 @@ class ViewController: UIViewController {
                 if isSuccess == true {
                     print("Purchase success")
                     //Do something after product successfully purchased
-                    if let productInfo = SubscriptionManager.shared.productInfo {
+                    if let productInfo = SubscriptionManager.shared.productInfo { //SubscriptionManager.shared.productInfo {
                         print("Purchased product: ", productInfo)
                     }
                     

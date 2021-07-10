@@ -19,6 +19,7 @@
 /* Begin PBXFileReference section */
 		1759FF1674327F4CAE98B3EA /* OneFlow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = OneFlow.podspec; path = ../OneFlow.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		431474B0264BAEF500ACD955 /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleIncRootCertificate.cer; sourceTree = "<group>"; };
+		439D44CA2699B031008BD98E /* Survey.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = Survey.podspec; path = ../Survey.podspec; sourceTree = "<group>"; };
 		4A91589950361F2939EB853D /* Pods_OneFlow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneFlow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA86A9371C9B418A23EBA4B /* Pods-OneFlow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneFlow_Tests.debug.xcconfig"; path = "Target Support Files/Pods-OneFlow_Tests/Pods-OneFlow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* OneFlow_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneFlow_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				1759FF1674327F4CAE98B3EA /* OneFlow.podspec */,
+				439D44CA2699B031008BD98E /* Survey.podspec */,
 				D62ED2A96796EADBE6D0C6BD /* README.md */,
 				843C2FFACCF3D0CDF262037F /* LICENSE */,
 			);
