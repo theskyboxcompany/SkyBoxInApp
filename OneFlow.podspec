@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'OneFlow'
-  s.version          = '1.0.2'
+  s.version          = '1.0.4'
   s.summary          = 'InApp purchase with local receipt verification.'
 
 # This description is used to generate tags and improve search results.
@@ -37,4 +37,8 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'OpenSSL-Universal', '1.1.180'
+   s.subspec 'Survey' do |survey|
+       survey.source_files = 'Survey/Classes/**/*'
+       survey.resources = 'Survey/Assets/**/*'
+     end
 end
