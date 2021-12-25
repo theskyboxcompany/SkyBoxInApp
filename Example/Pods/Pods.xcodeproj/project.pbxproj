@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F115BD35559DF5787CB829229E9F062E /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */;
+			buildConfigurationList = 433953BD416E93122EC23DB2F43164CD /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */;
 			buildPhases = (
-				E63645E661101E9E27824DD6C9D81A1E /* [CP] Copy XCFrameworks */,
+				DB97E334C06D1E542D258792022C1EAE /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -21,146 +21,103 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0C8092AC63DF39A42A744298BF9E1310 /* Pods-OneFlow_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECF5CFE7A59701B969597B2A754B0FD /* Pods-OneFlow_Example-dummy.m */; };
-		1176DA86547ACAFC0B0FB6128C8D59D1 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2698F49FF856F3917A80B7F5A5583A6 /* SubscriptionManager.swift */; };
-		42160AFF4DC185B12FAC205E15DFEC17 /* OneFlow-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CBA7D7467EC512D376ED2B068462916 /* OneFlow-dummy.m */; };
-		45428A033C936FE41AA9B0F42190B550 /* pkcs7_union_accessors.h in Headers */ = {isa = PBXBuildFile; fileRef = 0585F0DDB491D83CA45D213C5A7CF57F /* pkcs7_union_accessors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4F212C630E95957F32CE08AC171C3DC9 /* LocalReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2676A871AEC0F0398D4A9B7F7F062DF5 /* LocalReceiptValidator.swift */; };
-		651E9F60663EEDC2E7BCF960A8D6F253 /* OneFlow-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F69D9E1D8DB8610D4D93CD4BAF41ED8F /* OneFlow-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C1A97AA83BE5281832B30F7F9388733 /* Pods-OneFlow_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5623AD594EA1D65787CD1826FA6B425 /* Pods-OneFlow_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9164D75B5B2D98F428535BFE6DE74368 /* Pods-OneFlow_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 127FDE9BFF1C939DCF6A250D5EFA5A0A /* Pods-OneFlow_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7E51127FABA0603CD9D40A4FA0DD9E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AA90270B6FB470EC65CDAF79B63AE2E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B1026C334C975AE7E3205C62D98D2461 /* pkcs7_union_accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 189DC1AA07AB8F3994630266C91619EE /* pkcs7_union_accessors.c */; };
-		BE4531ABBE2082D12A3800458015B7D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		C792517BF3FBE22FD29CAC4C83E692D3 /* OneFlow.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F268BC94CF8DDB7BB6C4F8A0F3301DD8 /* OneFlow.bundle */; };
-		D9AA8EECA37B8D585E106BE3CEE87D99 /* Pods-OneFlow_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 486D3B5AB23F5DE0D375BCBF569F2673 /* Pods-OneFlow_Tests-dummy.m */; };
+		0EA0BAA2CEFA056088655A643ABFAAD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		128B69E783AE489AC1A2BA41A1A8DCAB /* SkyBoxInApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A01B1E37BAC3B6DDD7A9B0567D920B /* SkyBoxInApp-dummy.m */; };
+		442D4E508F0C95BB14DF6A18AD16F1F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5D6F1DCE7040AA37CDAFB0988F258A3E /* Pods-SkyBoxInApp_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3449495C67852C5C849019DB144969 /* Pods-SkyBoxInApp_Example-dummy.m */; };
+		68F70A908093A0B8E62A708665383F7C /* LocalReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8C276413C0132E06572542808DEFEB /* LocalReceiptValidator.swift */; };
+		6969EF5A964ABB294FCBCCF223DC2C48 /* SubscriptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC64E098F42844099BEC7F1DC551ED5 /* SubscriptionManager.swift */; };
+		6C7CFFC189A14A72CF78D29D1F0B049A /* SkyBoxInApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0763328DD32FA9C16B1C7C3B941E3BC /* SkyBoxInApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6FA240CEA4FC02417AC1C4EADEB7CC0 /* pkcs7_union_accessors.h in Headers */ = {isa = PBXBuildFile; fileRef = F0AEDEC6D019904F8E35361E055C379D /* pkcs7_union_accessors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B60A5D438686AF0D4F562D8313C39E2A /* pkcs7_union_accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 094D1017476302E1A1E3A6DACD8E4DC9 /* pkcs7_union_accessors.c */; };
+		CFBE105DD2C07698293157507CE93872 /* SkyBoxInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC627EE7E4D00840789FE59BF9389D81 /* SkyBoxInApp.swift */; };
+		E2FF54DA425DA9528A9C4CD8FF0B1019 /* Pods-SkyBoxInApp_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C0507CAA181A5F0B9EF2C58ED8DB86 /* Pods-SkyBoxInApp_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		56ED832442DBA457641807C831A979E5 /* PBXContainerItemProxy */ = {
+		2D7C08AF8C46E3014E426F257DAA54B6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABA1064C99BF2D47B76B9B8168F59D97;
-			remoteInfo = "OneFlow-OneFlow";
+			remoteGlobalIDString = 5346A06A6400DE782C5F6054ACDA1256;
+			remoteInfo = SkyBoxInApp;
 		};
-		84308BA26AE8A828AD8AB2DAAED915A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ECF6EA9E14A9946E25828143FC94938A;
-			remoteInfo = OneFlow;
-		};
-		877A774B569E75C6619DA11168BA5DAE /* PBXContainerItemProxy */ = {
+		837C60914087F2A9467B646DBD2FCC70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
 			remoteInfo = "OpenSSL-Universal";
 		};
-		BE9FA80E520B1618272F2FC05A7FB3C6 /* PBXContainerItemProxy */ = {
+		A87BC6E33989F62A41AA4D572AF57C45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
 			remoteInfo = "OpenSSL-Universal";
-		};
-		E1B108A0D57C61EC827952C2D7EA9396 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 65AA92AEEA0F85BA47CE9E28C72A9F05;
-			remoteInfo = "Pods-OneFlow_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0585F0DDB491D83CA45D213C5A7CF57F /* pkcs7_union_accessors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7_union_accessors.h; path = OneFlow/Classes/pkcs7_union_accessors.h; sourceTree = "<group>"; };
-		127FDE9BFF1C939DCF6A250D5EFA5A0A /* Pods-OneFlow_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneFlow_Tests-umbrella.h"; sourceTree = "<group>"; };
-		189DC1AA07AB8F3994630266C91619EE /* pkcs7_union_accessors.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pkcs7_union_accessors.c; path = OneFlow/Classes/pkcs7_union_accessors.c; sourceTree = "<group>"; };
-		1C46E43AC9B90FB0164363792AE27376 /* Pods-OneFlow_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneFlow_Example-Info.plist"; sourceTree = "<group>"; };
+		020D8DEABCE5E3AA5AD81CFD795D922F /* SkyBoxInApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SkyBoxInApp-Info.plist"; sourceTree = "<group>"; };
+		094D1017476302E1A1E3A6DACD8E4DC9 /* pkcs7_union_accessors.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = pkcs7_union_accessors.c; path = Purchase/Classes/pkcs7_union_accessors.c; sourceTree = "<group>"; };
+		09E351D915A0527B940DCE8FA3A5DA86 /* Pods-SkyBoxInApp_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyBoxInApp_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1C4A31AB8E819AD4ACE13D481CA9A9E8 /* SkyBoxInApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyBoxInApp.debug.xcconfig; sourceTree = "<group>"; };
 		1F5A7A3F58CB5F0F5C21CF92675D3C89 /* OpenSSL-Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.release.xcconfig"; sourceTree = "<group>"; };
-		2676A871AEC0F0398D4A9B7F7F062DF5 /* LocalReceiptValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalReceiptValidator.swift; path = OneFlow/Classes/LocalReceiptValidator.swift; sourceTree = "<group>"; };
-		371B795C9CA5C59DEC5AF5A70F59CC66 /* Pods-OneFlow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneFlow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D74889844BCD72455F62A0413A7307B /* OneFlow.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OneFlow.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		3ECF5CFE7A59701B969597B2A754B0FD /* Pods-OneFlow_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneFlow_Example-dummy.m"; sourceTree = "<group>"; };
-		458A4765C63E66D4F60815D0AC16CB01 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		486D3B5AB23F5DE0D375BCBF569F2673 /* Pods-OneFlow_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OneFlow_Tests-dummy.m"; sourceTree = "<group>"; };
-		4954D538677E0B5FB85E6EFA0D648AB8 /* Pods-OneFlow_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneFlow_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4A51B5465AD3B9E4C4ECD2D921305503 /* ResourceBundle-OneFlow-OneFlow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-OneFlow-OneFlow-Info.plist"; sourceTree = "<group>"; };
-		651E19D83A4F5A70462B69A4E8463A9F /* OneFlow-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OneFlow-Info.plist"; sourceTree = "<group>"; };
-		69C39FDB1BD6B25EEA14CE24AC9CA01F /* OneFlow.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OneFlow.modulemap; sourceTree = "<group>"; };
+		2197F5D3F29AB50815B9C0D64E323BBD /* SkyBoxInApp-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyBoxInApp-prefix.pch"; sourceTree = "<group>"; };
+		2324DBD2E7B932F9D4D74EC201E52072 /* Pods-SkyBoxInApp_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkyBoxInApp_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		41DEC633F61C88A5C5178E29148F6C91 /* SkyBoxInApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SkyBoxInApp.release.xcconfig; sourceTree = "<group>"; };
+		54C0507CAA181A5F0B9EF2C58ED8DB86 /* Pods-SkyBoxInApp_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SkyBoxInApp_Example-umbrella.h"; sourceTree = "<group>"; };
+		5D524DB4B401E5A8CB8914CAFE37F261 /* Pods-SkyBoxInApp_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SkyBoxInApp_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6E397D8026F3668CE37E6814F1E3D015 /* SkyBoxInApp.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SkyBoxInApp.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		715F056651499E97095DE708B66EC323 /* SkyBoxInApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SkyBoxInApp; path = SkyBoxInApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		763B660B170D2131B061F4A684310E05 /* Pods-OneFlow_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneFlow_Tests.modulemap"; sourceTree = "<group>"; };
-		79B79DC245AFA797DBCD4471CE3FA2D1 /* OneFlow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OneFlow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89D77DC8EF27711FFF16E8B5E01C28CA /* Pods_OneFlow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneFlow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CBA7D7467EC512D376ED2B068462916 /* OneFlow-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OneFlow-dummy.m"; sourceTree = "<group>"; };
-		8F976BC3D6937311F460759CD9BDDE31 /* Pods-OneFlow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneFlow_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9364B64BF5657A2B9599D7984A75ECA0 /* OneFlow-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneFlow-prefix.pch"; sourceTree = "<group>"; };
-		95E895D243A799C3535979EF867E3585 /* Pods-OneFlow_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OneFlow_Example-frameworks.sh"; sourceTree = "<group>"; };
+		84B885049B34A40C649909A0EC0BB065 /* Pods-SkyBoxInApp_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SkyBoxInApp_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8C3449495C67852C5C849019DB144969 /* Pods-SkyBoxInApp_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SkyBoxInApp_Example-dummy.m"; sourceTree = "<group>"; };
+		900D4FBE4A81E43EAFEA6831145C6E23 /* Pods-SkyBoxInApp_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SkyBoxInApp_Example-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A00901BCB93A4430578C33A30A47A8DB /* OpenSSL-Universal-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "OpenSSL-Universal-xcframeworks.sh"; sourceTree = "<group>"; };
-		A15FE7449D4C4301B389AA6F884C2342 /* OneFlow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneFlow.debug.xcconfig; sourceTree = "<group>"; };
-		A20393185B941F07D3F7CAB29C047427 /* Pods-OneFlow_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneFlow_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AADCA1D8F987E5153FA1ECE55D2B2351 /* OpenSSL.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = OpenSSL.xcframework; path = Frameworks/OpenSSL.xcframework; sourceTree = "<group>"; };
-		AF66B22B9F456E3E562543D93EA93424 /* OneFlow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OneFlow.release.xcconfig; sourceTree = "<group>"; };
-		B10D144CA206C6D076801BC8847B2C36 /* Pods-OneFlow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneFlow_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B2698F49FF856F3917A80B7F5A5583A6 /* SubscriptionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionManager.swift; path = OneFlow/Classes/SubscriptionManager.swift; sourceTree = "<group>"; };
-		BAC615776B5264DABBAC4A2091EF8F85 /* Pods-OneFlow_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneFlow_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BC5360722CCCB68A50A3DAB119736E9C /* Pods-OneFlow_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OneFlow_Example.modulemap"; sourceTree = "<group>"; };
-		BFCA17730CB299AC8E7034AC35D90DDE /* Pods_OneFlow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OneFlow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0763328DD32FA9C16B1C7C3B941E3BC /* SkyBoxInApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SkyBoxInApp-umbrella.h"; sourceTree = "<group>"; };
+		BC8C276413C0132E06572542808DEFEB /* LocalReceiptValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalReceiptValidator.swift; path = Purchase/Classes/LocalReceiptValidator.swift; sourceTree = "<group>"; };
+		BCC64E098F42844099BEC7F1DC551ED5 /* SubscriptionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SubscriptionManager.swift; path = Purchase/Classes/SubscriptionManager.swift; sourceTree = "<group>"; };
+		C1EC43269820293CDE54639D5FB1B9C0 /* SkyBoxInApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SkyBoxInApp.modulemap; sourceTree = "<group>"; };
 		CBA942D70B67070CCEF49DF777ACD982 /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
-		D02E9BB0B4B7409D7AC15DB352D944DB /* Pods-OneFlow_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OneFlow_Tests-Info.plist"; sourceTree = "<group>"; };
-		D4C16FF8DE6E302A6BBC09D1C7964737 /* Pods-OneFlow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OneFlow_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E226E498B20A8F0EA09DF49A56CECC31 /* Pods-OneFlow_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OneFlow_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E5623AD594EA1D65787CD1826FA6B425 /* Pods-OneFlow_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OneFlow_Example-umbrella.h"; sourceTree = "<group>"; };
-		F268BC94CF8DDB7BB6C4F8A0F3301DD8 /* OneFlow.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneFlow.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		F69D9E1D8DB8610D4D93CD4BAF41ED8F /* OneFlow-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OneFlow-umbrella.h"; sourceTree = "<group>"; };
-		F838680EF9F6A046E8A53490F215EAD0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		D5A01B1E37BAC3B6DDD7A9B0567D920B /* SkyBoxInApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SkyBoxInApp-dummy.m"; sourceTree = "<group>"; };
+		DC627EE7E4D00840789FE59BF9389D81 /* SkyBoxInApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SkyBoxInApp.swift; path = SkyBox/Classes/SkyBoxInApp.swift; sourceTree = "<group>"; };
+		EA7B1613B76D15BD459DDAA86E218C8F /* Pods-SkyBoxInApp_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SkyBoxInApp_Example"; path = Pods_SkyBoxInApp_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0AEDEC6D019904F8E35361E055C379D /* pkcs7_union_accessors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7_union_accessors.h; path = Purchase/Classes/pkcs7_union_accessors.h; sourceTree = "<group>"; };
+		F270B6642ED33B4892C4732F25C2A5F1 /* Pods-SkyBoxInApp_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SkyBoxInApp_Example.modulemap"; sourceTree = "<group>"; };
+		F3DC01BDCB1B97CA3B56CFD427BD969E /* Pods-SkyBoxInApp_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SkyBoxInApp_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F751CB9FDE30E6BFD050C2A50FB47C02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3AE66C9D927CCF6AAB01E69BE3503410 /* Frameworks */ = {
+		AFDA8CE805CE371E0DE2302B0F360642 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE4531ABBE2082D12A3800458015B7D5 /* Foundation.framework in Frameworks */,
+				0EA0BAA2CEFA056088655A643ABFAAD6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E3A9D3DE25CD39997B2A6DC48F9CAE8 /* Frameworks */ = {
+		CB95433202AB3C865C902B8C027170A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7E51127FABA0603CD9D40A4FA0DD9E8 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B2FD4F0CDDD6714F3D773C8F0595CF4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF285855B9AAAAE954EDE373D889F7AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA90270B6FB470EC65CDAF79B63AE2E0 /* Foundation.framework in Frameworks */,
+				442D4E508F0C95BB14DF6A18AD16F1F4 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B7DF23A606989ED7D1A4AE63EC265AF /* Development Pods */ = {
+		102F82347B13088A9EEF55D15586A809 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C8B93189702FEB1B3C5FA35D5DE8BF94 /* OneFlow */,
+				E64E8515164702AE4E35C3A16082FCCE /* Pods-SkyBoxInApp_Example */,
 			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		2D8C8302E198D06CDF276F3269E7D929 /* Frameworks */ = {
@@ -182,22 +139,6 @@
 			path = "../Target Support Files/OpenSSL-Universal";
 			sourceTree = "<group>";
 		};
-		3DE843F446219CC09BFC21E1B8354914 /* Pods-OneFlow_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				763B660B170D2131B061F4A684310E05 /* Pods-OneFlow_Tests.modulemap */,
-				A20393185B941F07D3F7CAB29C047427 /* Pods-OneFlow_Tests-acknowledgements.markdown */,
-				BAC615776B5264DABBAC4A2091EF8F85 /* Pods-OneFlow_Tests-acknowledgements.plist */,
-				486D3B5AB23F5DE0D375BCBF569F2673 /* Pods-OneFlow_Tests-dummy.m */,
-				D02E9BB0B4B7409D7AC15DB352D944DB /* Pods-OneFlow_Tests-Info.plist */,
-				127FDE9BFF1C939DCF6A250D5EFA5A0A /* Pods-OneFlow_Tests-umbrella.h */,
-				371B795C9CA5C59DEC5AF5A70F59CC66 /* Pods-OneFlow_Tests.debug.xcconfig */,
-				D4C16FF8DE6E302A6BBC09D1C7964737 /* Pods-OneFlow_Tests.release.xcconfig */,
-			);
-			name = "Pods-OneFlow_Tests";
-			path = "Target Support Files/Pods-OneFlow_Tests";
-			sourceTree = "<group>";
-		};
 		4E62780B97D6C66BACF776DF12651B8A /* OpenSSL-Universal */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,6 +146,18 @@
 				316A4EE1495B6DA8B1957F93D95A92A7 /* Support Files */,
 			);
 			path = "OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		54F24C8A0C3276F7C6B15C4221037016 /* SkyBoxInApp */ = {
+			isa = PBXGroup;
+			children = (
+				DC627EE7E4D00840789FE59BF9389D81 /* SkyBoxInApp.swift */,
+				BE73A706FD759F73E77F77303E9C82D2 /* Pod */,
+				692203BABFEC01D1E86DA48F4DB1BA3D /* Purchase */,
+				E8C04B49BF0EDBB380855D1E1F6A1003 /* Support Files */,
+			);
+			name = SkyBoxInApp;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -215,6 +168,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		692203BABFEC01D1E86DA48F4DB1BA3D /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				BC8C276413C0132E06572542808DEFEB /* LocalReceiptValidator.swift */,
+				094D1017476302E1A1E3A6DACD8E4DC9 /* pkcs7_union_accessors.c */,
+				F0AEDEC6D019904F8E35361E055C379D /* pkcs7_union_accessors.h */,
+				BCC64E098F42844099BEC7F1DC551ED5 /* SubscriptionManager.swift */,
+			);
+			name = Purchase;
+			sourceTree = "<group>";
+		};
+		83CA816A14460019B72157E769305381 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54F24C8A0C3276F7C6B15C4221037016 /* SkyBoxInApp */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		8479BAA8FF147F675C3CCF6774776249 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -223,66 +195,33 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		8D89C6833996ABD1FAC72171D27D5409 /* Pods-OneFlow_Example */ = {
+		A2138A3869F1A9F03B70390FF4A71B60 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC5360722CCCB68A50A3DAB119736E9C /* Pods-OneFlow_Example.modulemap */,
-				E226E498B20A8F0EA09DF49A56CECC31 /* Pods-OneFlow_Example-acknowledgements.markdown */,
-				4954D538677E0B5FB85E6EFA0D648AB8 /* Pods-OneFlow_Example-acknowledgements.plist */,
-				3ECF5CFE7A59701B969597B2A754B0FD /* Pods-OneFlow_Example-dummy.m */,
-				95E895D243A799C3535979EF867E3585 /* Pods-OneFlow_Example-frameworks.sh */,
-				1C46E43AC9B90FB0164363792AE27376 /* Pods-OneFlow_Example-Info.plist */,
-				E5623AD594EA1D65787CD1826FA6B425 /* Pods-OneFlow_Example-umbrella.h */,
-				8F976BC3D6937311F460759CD9BDDE31 /* Pods-OneFlow_Example.debug.xcconfig */,
-				B10D144CA206C6D076801BC8847B2C36 /* Pods-OneFlow_Example.release.xcconfig */,
-			);
-			name = "Pods-OneFlow_Example";
-			path = "Target Support Files/Pods-OneFlow_Example";
-			sourceTree = "<group>";
-		};
-		A69B8A60531C76B4AE55C44D928F583A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8D89C6833996ABD1FAC72171D27D5409 /* Pods-OneFlow_Example */,
-				3DE843F446219CC09BFC21E1B8354914 /* Pods-OneFlow_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		C4D1F5364763C4DBA6E67E19C333E6F3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F268BC94CF8DDB7BB6C4F8A0F3301DD8 /* OneFlow.bundle */,
-				79B79DC245AFA797DBCD4471CE3FA2D1 /* OneFlow.framework */,
-				BFCA17730CB299AC8E7034AC35D90DDE /* Pods_OneFlow_Example.framework */,
-				89D77DC8EF27711FFF16E8B5E01C28CA /* Pods_OneFlow_Tests.framework */,
+				EA7B1613B76D15BD459DDAA86E218C8F /* Pods-SkyBoxInApp_Example */,
+				715F056651499E97095DE708B66EC323 /* SkyBoxInApp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C8B93189702FEB1B3C5FA35D5DE8BF94 /* OneFlow */ = {
+		BE73A706FD759F73E77F77303E9C82D2 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2676A871AEC0F0398D4A9B7F7F062DF5 /* LocalReceiptValidator.swift */,
-				189DC1AA07AB8F3994630266C91619EE /* pkcs7_union_accessors.c */,
-				0585F0DDB491D83CA45D213C5A7CF57F /* pkcs7_union_accessors.h */,
-				B2698F49FF856F3917A80B7F5A5583A6 /* SubscriptionManager.swift */,
-				E5E5841592A26B72F5837F40F784B69C /* Pod */,
-				DFA3EF57A29D356228EC95887DB13717 /* Support Files */,
+				F751CB9FDE30E6BFD050C2A50FB47C02 /* LICENSE */,
+				6E397D8026F3668CE37E6814F1E3D015 /* SkyBoxInApp.podspec */,
 			);
-			name = OneFlow;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1B7DF23A606989ED7D1A4AE63EC265AF /* Development Pods */,
+				83CA816A14460019B72157E769305381 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				8479BAA8FF147F675C3CCF6774776249 /* Pods */,
-				C4D1F5364763C4DBA6E67E19C333E6F3 /* Products */,
-				A69B8A60531C76B4AE55C44D928F583A /* Targets Support Files */,
+				A2138A3869F1A9F03B70390FF4A71B60 /* Products */,
+				102F82347B13088A9EEF55D15586A809 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -294,137 +233,98 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DFA3EF57A29D356228EC95887DB13717 /* Support Files */ = {
+		E64E8515164702AE4E35C3A16082FCCE /* Pods-SkyBoxInApp_Example */ = {
 			isa = PBXGroup;
 			children = (
-				69C39FDB1BD6B25EEA14CE24AC9CA01F /* OneFlow.modulemap */,
-				8CBA7D7467EC512D376ED2B068462916 /* OneFlow-dummy.m */,
-				651E19D83A4F5A70462B69A4E8463A9F /* OneFlow-Info.plist */,
-				9364B64BF5657A2B9599D7984A75ECA0 /* OneFlow-prefix.pch */,
-				F69D9E1D8DB8610D4D93CD4BAF41ED8F /* OneFlow-umbrella.h */,
-				A15FE7449D4C4301B389AA6F884C2342 /* OneFlow.debug.xcconfig */,
-				AF66B22B9F456E3E562543D93EA93424 /* OneFlow.release.xcconfig */,
-				4A51B5465AD3B9E4C4ECD2D921305503 /* ResourceBundle-OneFlow-OneFlow-Info.plist */,
+				F270B6642ED33B4892C4732F25C2A5F1 /* Pods-SkyBoxInApp_Example.modulemap */,
+				F3DC01BDCB1B97CA3B56CFD427BD969E /* Pods-SkyBoxInApp_Example-acknowledgements.markdown */,
+				2324DBD2E7B932F9D4D74EC201E52072 /* Pods-SkyBoxInApp_Example-acknowledgements.plist */,
+				8C3449495C67852C5C849019DB144969 /* Pods-SkyBoxInApp_Example-dummy.m */,
+				84B885049B34A40C649909A0EC0BB065 /* Pods-SkyBoxInApp_Example-frameworks.sh */,
+				900D4FBE4A81E43EAFEA6831145C6E23 /* Pods-SkyBoxInApp_Example-Info.plist */,
+				54C0507CAA181A5F0B9EF2C58ED8DB86 /* Pods-SkyBoxInApp_Example-umbrella.h */,
+				5D524DB4B401E5A8CB8914CAFE37F261 /* Pods-SkyBoxInApp_Example.debug.xcconfig */,
+				09E351D915A0527B940DCE8FA3A5DA86 /* Pods-SkyBoxInApp_Example.release.xcconfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/OneFlow";
+			name = "Pods-SkyBoxInApp_Example";
+			path = "Target Support Files/Pods-SkyBoxInApp_Example";
 			sourceTree = "<group>";
 		};
-		E5E5841592A26B72F5837F40F784B69C /* Pod */ = {
+		E8C04B49BF0EDBB380855D1E1F6A1003 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F838680EF9F6A046E8A53490F215EAD0 /* LICENSE */,
-				3D74889844BCD72455F62A0413A7307B /* OneFlow.podspec */,
-				458A4765C63E66D4F60815D0AC16CB01 /* README.md */,
+				C1EC43269820293CDE54639D5FB1B9C0 /* SkyBoxInApp.modulemap */,
+				D5A01B1E37BAC3B6DDD7A9B0567D920B /* SkyBoxInApp-dummy.m */,
+				020D8DEABCE5E3AA5AD81CFD795D922F /* SkyBoxInApp-Info.plist */,
+				2197F5D3F29AB50815B9C0D64E323BBD /* SkyBoxInApp-prefix.pch */,
+				B0763328DD32FA9C16B1C7C3B941E3BC /* SkyBoxInApp-umbrella.h */,
+				1C4A31AB8E819AD4ACE13D481CA9A9E8 /* SkyBoxInApp.debug.xcconfig */,
+				41DEC633F61C88A5C5178E29148F6C91 /* SkyBoxInApp.release.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SkyBoxInApp";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		261147C571CBB584F4A166916595A149 /* Headers */ = {
+		5C1061825D3C29F9971E821C4A24600F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				651E9F60663EEDC2E7BCF960A8D6F253 /* OneFlow-umbrella.h in Headers */,
-				45428A033C936FE41AA9B0F42190B550 /* pkcs7_union_accessors.h in Headers */,
+				A6FA240CEA4FC02417AC1C4EADEB7CC0 /* pkcs7_union_accessors.h in Headers */,
+				6C7CFFC189A14A72CF78D29D1F0B049A /* SkyBoxInApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8207190A03DE3ACBA87BCD5A2D94F53 /* Headers */ = {
+		BA4D4499C65744F2E87246A2D782AB8F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C1A97AA83BE5281832B30F7F9388733 /* Pods-OneFlow_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D93781EED9BCD7964755F6EC83ACC405 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9164D75B5B2D98F428535BFE6DE74368 /* Pods-OneFlow_Tests-umbrella.h in Headers */,
+				E2FF54DA425DA9528A9C4CD8FF0B1019 /* Pods-SkyBoxInApp_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		65AA92AEEA0F85BA47CE9E28C72A9F05 /* Pods-OneFlow_Example */ = {
+		5346A06A6400DE782C5F6054ACDA1256 /* SkyBoxInApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7D18A66DA86672EE95FC1EB59DC05E29 /* Build configuration list for PBXNativeTarget "Pods-OneFlow_Example" */;
+			buildConfigurationList = 28BCE6881328279421E181071F65CD50 /* Build configuration list for PBXNativeTarget "SkyBoxInApp" */;
 			buildPhases = (
-				A8207190A03DE3ACBA87BCD5A2D94F53 /* Headers */,
-				C5671034A57A3C94C201686D7A70CC52 /* Sources */,
-				7E3A9D3DE25CD39997B2A6DC48F9CAE8 /* Frameworks */,
-				0225727CA43FC65A0C0F6FFB88EF7338 /* Resources */,
+				5C1061825D3C29F9971E821C4A24600F /* Headers */,
+				236C16325170708F3754E076265A9224 /* Sources */,
+				CB95433202AB3C865C902B8C027170A2 /* Frameworks */,
+				5A420D9032F55BC99EFC7FAF8EE643C4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				986894E03EF15DEF625BA64C6F48FD2A /* PBXTargetDependency */,
-				D6E0FA25CF8007DF0237F4F0EFF67017 /* PBXTargetDependency */,
+				8DBB254518E7B55D91131A3DE52409A7 /* PBXTargetDependency */,
 			);
-			name = "Pods-OneFlow_Example";
-			productName = "Pods-OneFlow_Example";
-			productReference = BFCA17730CB299AC8E7034AC35D90DDE /* Pods_OneFlow_Example.framework */;
+			name = SkyBoxInApp;
+			productName = SkyBoxInApp;
+			productReference = 715F056651499E97095DE708B66EC323 /* SkyBoxInApp */;
 			productType = "com.apple.product-type.framework";
 		};
-		A126F146A7E26BFDB1874298C84D1E37 /* Pods-OneFlow_Tests */ = {
+		DDFD8EBCA184BC3AE4375D0E07CFB592 /* Pods-SkyBoxInApp_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6952593853E5BD5AD43B1332FF06EF1C /* Build configuration list for PBXNativeTarget "Pods-OneFlow_Tests" */;
+			buildConfigurationList = 4A67B4FCBECE6989A7FF35AD9CC1225E /* Build configuration list for PBXNativeTarget "Pods-SkyBoxInApp_Example" */;
 			buildPhases = (
-				D93781EED9BCD7964755F6EC83ACC405 /* Headers */,
-				823D6FCE5E877C8B0F71A7A92F5F5EF0 /* Sources */,
-				EF285855B9AAAAE954EDE373D889F7AC /* Frameworks */,
-				CAB342019D0C5821BBC1BEA5DA22ADCA /* Resources */,
+				BA4D4499C65744F2E87246A2D782AB8F /* Headers */,
+				5C5985FE9AE7D9BBD1E936CF20622423 /* Sources */,
+				AFDA8CE805CE371E0DE2302B0F360642 /* Frameworks */,
+				39C6BF3FB147EDA66371D9FAC97983ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FB4FB9D084EE14696354FC59EA86A35F /* PBXTargetDependency */,
+				39C1C0D4F1787BAD43632EC6319C93DC /* PBXTargetDependency */,
+				F6FD422E2DC11DC50B3FC6F4C1720AB0 /* PBXTargetDependency */,
 			);
-			name = "Pods-OneFlow_Tests";
-			productName = "Pods-OneFlow_Tests";
-			productReference = 89D77DC8EF27711FFF16E8B5E01C28CA /* Pods_OneFlow_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ABA1064C99BF2D47B76B9B8168F59D97 /* OneFlow-OneFlow */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9D48BB3AAACD5EF7477A1B60A7945806 /* Build configuration list for PBXNativeTarget "OneFlow-OneFlow" */;
-			buildPhases = (
-				482425E41D064A42A8E7521EE4DFC7F1 /* Sources */,
-				9B2FD4F0CDDD6714F3D773C8F0595CF4 /* Frameworks */,
-				0B30B584F5DCD8BDC23965C73757BC24 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "OneFlow-OneFlow";
-			productName = "OneFlow-OneFlow";
-			productReference = F268BC94CF8DDB7BB6C4F8A0F3301DD8 /* OneFlow.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
-		ECF6EA9E14A9946E25828143FC94938A /* OneFlow */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A8F6CC5A2AE931717F93BE97D695CFE /* Build configuration list for PBXNativeTarget "OneFlow" */;
-			buildPhases = (
-				261147C571CBB584F4A166916595A149 /* Headers */,
-				58F507E1C360A15E0916A276ED209FC0 /* Sources */,
-				3AE66C9D927CCF6AAB01E69BE3503410 /* Frameworks */,
-				B3F851882D2AEFA4AAE7C9FDCA9B554E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B2D8B247C180358B5D47971CCFE7BB3A /* PBXTargetDependency */,
-				73E79F778EBFD163B119CCB457C289DF /* PBXTargetDependency */,
-			);
-			name = OneFlow;
-			productName = OneFlow;
-			productReference = 79B79DC245AFA797DBCD4471CE3FA2D1 /* OneFlow.framework */;
+			name = "Pods-SkyBoxInApp_Example";
+			productName = Pods_SkyBoxInApp_Example;
+			productReference = EA7B1613B76D15BD459DDAA86E218C8F /* Pods-SkyBoxInApp_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -433,55 +333,38 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C4D1F5364763C4DBA6E67E19C333E6F3 /* Products */;
+			productRefGroup = A2138A3869F1A9F03B70390FF4A71B60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ECF6EA9E14A9946E25828143FC94938A /* OneFlow */,
-				ABA1064C99BF2D47B76B9B8168F59D97 /* OneFlow-OneFlow */,
 				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
-				65AA92AEEA0F85BA47CE9E28C72A9F05 /* Pods-OneFlow_Example */,
-				A126F146A7E26BFDB1874298C84D1E37 /* Pods-OneFlow_Tests */,
+				DDFD8EBCA184BC3AE4375D0E07CFB592 /* Pods-SkyBoxInApp_Example */,
+				5346A06A6400DE782C5F6054ACDA1256 /* SkyBoxInApp */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0225727CA43FC65A0C0F6FFB88EF7338 /* Resources */ = {
+		39C6BF3FB147EDA66371D9FAC97983ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0B30B584F5DCD8BDC23965C73757BC24 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B3F851882D2AEFA4AAE7C9FDCA9B554E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C792517BF3FBE22FD29CAC4C83E692D3 /* OneFlow.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CAB342019D0C5821BBC1BEA5DA22ADCA /* Resources */ = {
+		5A420D9032F55BC99EFC7FAF8EE643C4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -491,7 +374,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E63645E661101E9E27824DD6C9D81A1E /* [CP] Copy XCFrameworks */ = {
+		DB97E334C06D1E542D258792022C1EAE /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -502,7 +385,7 @@
 			);
 			name = "[CP] Copy XCFrameworks";
 			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/OpenSSL-Universal/OpenSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -512,81 +395,56 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		482425E41D064A42A8E7521EE4DFC7F1 /* Sources */ = {
+		236C16325170708F3754E076265A9224 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F70A908093A0B8E62A708665383F7C /* LocalReceiptValidator.swift in Sources */,
+				CFBE105DD2C07698293157507CE93872 /* SkyBoxInApp.swift in Sources */,
+				B60A5D438686AF0D4F562D8313C39E2A /* pkcs7_union_accessors.c in Sources */,
+				128B69E783AE489AC1A2BA41A1A8DCAB /* SkyBoxInApp-dummy.m in Sources */,
+				6969EF5A964ABB294FCBCCF223DC2C48 /* SubscriptionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58F507E1C360A15E0916A276ED209FC0 /* Sources */ = {
+		5C5985FE9AE7D9BBD1E936CF20622423 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F212C630E95957F32CE08AC171C3DC9 /* LocalReceiptValidator.swift in Sources */,
-				42160AFF4DC185B12FAC205E15DFEC17 /* OneFlow-dummy.m in Sources */,
-				B1026C334C975AE7E3205C62D98D2461 /* pkcs7_union_accessors.c in Sources */,
-				1176DA86547ACAFC0B0FB6128C8D59D1 /* SubscriptionManager.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		823D6FCE5E877C8B0F71A7A92F5F5EF0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9AA8EECA37B8D585E106BE3CEE87D99 /* Pods-OneFlow_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5671034A57A3C94C201686D7A70CC52 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0C8092AC63DF39A42A744298BF9E1310 /* Pods-OneFlow_Example-dummy.m in Sources */,
+				5D6F1DCE7040AA37CDAFB0988F258A3E /* Pods-SkyBoxInApp_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		73E79F778EBFD163B119CCB457C289DF /* PBXTargetDependency */ = {
+		39C1C0D4F1787BAD43632EC6319C93DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "OpenSSL-Universal";
 			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
-			targetProxy = 877A774B569E75C6619DA11168BA5DAE /* PBXContainerItemProxy */;
+			targetProxy = 837C60914087F2A9467B646DBD2FCC70 /* PBXContainerItemProxy */;
 		};
-		986894E03EF15DEF625BA64C6F48FD2A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = OneFlow;
-			target = ECF6EA9E14A9946E25828143FC94938A /* OneFlow */;
-			targetProxy = 84308BA26AE8A828AD8AB2DAAED915A7 /* PBXContainerItemProxy */;
-		};
-		B2D8B247C180358B5D47971CCFE7BB3A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "OneFlow-OneFlow";
-			target = ABA1064C99BF2D47B76B9B8168F59D97 /* OneFlow-OneFlow */;
-			targetProxy = 56ED832442DBA457641807C831A979E5 /* PBXContainerItemProxy */;
-		};
-		D6E0FA25CF8007DF0237F4F0EFF67017 /* PBXTargetDependency */ = {
+		8DBB254518E7B55D91131A3DE52409A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "OpenSSL-Universal";
 			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
-			targetProxy = BE9FA80E520B1618272F2FC05A7FB3C6 /* PBXContainerItemProxy */;
+			targetProxy = A87BC6E33989F62A41AA4D572AF57C45 /* PBXContainerItemProxy */;
 		};
-		FB4FB9D084EE14696354FC59EA86A35F /* PBXTargetDependency */ = {
+		F6FD422E2DC11DC50B3FC6F4C1720AB0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-OneFlow_Example";
-			target = 65AA92AEEA0F85BA47CE9E28C72A9F05 /* Pods-OneFlow_Example */;
-			targetProxy = E1B108A0D57C61EC827952C2D7EA9396 /* PBXContainerItemProxy */;
+			name = SkyBoxInApp;
+			target = 5346A06A6400DE782C5F6054ACDA1256 /* SkyBoxInApp */;
+			targetProxy = 2D7C08AF8C46E3014E426F257DAA54B6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0272F48B7568E0FF91D8ECC1C98E7C98 /* Debug */ = {
+		1286490221D1B69E2A9B1F0F90944276 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 371B795C9CA5C59DEC5AF5A70F59CC66 /* Pods-OneFlow_Tests.debug.xcconfig */;
+			baseConfigurationReference = 1C4A31AB8E819AD4ACE13D481CA9A9E8 /* SkyBoxInApp.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -595,12 +453,120 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OneFlow_Tests/Pods-OneFlow_Tests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyBoxInApp/SkyBoxInApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyBoxInApp/SkyBoxInApp-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyBoxInApp/SkyBoxInApp.modulemap";
+				PRODUCT_MODULE_NAME = SkyBoxInApp;
+				PRODUCT_NAME = SkyBoxInApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B316432AE60080CB059A79312DDEB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA942D70B67070CCEF49DF777ACD982 /* OpenSSL-Universal.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0A2CB0E53A4F164FB3DBB8F5E8D38E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09E351D915A0527B940DCE8FA3A5DA86 /* Pods-SkyBoxInApp_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SkyBoxInApp_Example/Pods-SkyBoxInApp_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OneFlow_Tests/Pods-OneFlow_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SkyBoxInApp_Example/Pods-SkyBoxInApp_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -609,12 +575,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -667,7 +634,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -680,11 +647,13 @@
 			};
 			name = Debug;
 		};
-		3E25A2C4384FB1BAD44CB2A36A55524E /* Debug */ = {
+		CC9D98B50C62C5CF75E12EA104989172 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F976BC3D6937311F460759CD9BDDE31 /* Pods-OneFlow_Example.debug.xcconfig */;
+			baseConfigurationReference = 5D524DB4B401E5A8CB8914CAFE37F261 /* Pods-SkyBoxInApp_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -693,12 +662,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OneFlow_Example/Pods-OneFlow_Example-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SkyBoxInApp_Example/Pods-SkyBoxInApp_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OneFlow_Example/Pods-OneFlow_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SkyBoxInApp_Example/Pods-SkyBoxInApp_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -712,139 +681,11 @@
 			};
 			name = Debug;
 		};
-		54C7D2DFC0CBF57BD3476407AF0E4465 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D4C16FF8DE6E302A6BBC09D1C7964737 /* Pods-OneFlow_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OneFlow_Tests/Pods-OneFlow_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OneFlow_Tests/Pods-OneFlow_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		58BEA6DA56305D51356DB8985FD680DB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A15FE7449D4C4301B389AA6F884C2342 /* OneFlow.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OneFlow/OneFlow-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OneFlow/OneFlow-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OneFlow/OneFlow.modulemap";
-				PRODUCT_MODULE_NAME = OneFlow;
-				PRODUCT_NAME = OneFlow;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7A0BEBD33C165CABFF0ACAE3AE032550 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF66B22B9F456E3E562543D93EA93424 /* OneFlow.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/OneFlow/OneFlow-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/OneFlow/OneFlow-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/OneFlow/OneFlow.modulemap";
-				PRODUCT_MODULE_NAME = OneFlow;
-				PRODUCT_NAME = OneFlow;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7F72D5A8FDD1C0447BF3EE426305044A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B10D144CA206C6D076801BC8847B2C36 /* Pods-OneFlow_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-OneFlow_Example/Pods-OneFlow_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-OneFlow_Example/Pods-OneFlow_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		902D2D6EE8A69110402F876ACDB3C408 /* Release */ = {
+		D551795968AD2C24AD8F08002D53D45A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F5A7A3F58CB5F0F5C21CF92675D3C89 /* OpenSSL-Universal.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -855,165 +696,74 @@
 			};
 			name = Release;
 		};
-		C71B25B3CFAE09582FD8DED341176B12 /* Debug */ = {
+		E44265B2477798F0CADB55B32CD68C49 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A15FE7449D4C4301B389AA6F884C2342 /* OneFlow.debug.xcconfig */;
+			baseConfigurationReference = 41DEC633F61C88A5C5178E29148F6C91 /* SkyBoxInApp.release.xcconfig */;
 			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OneFlow";
-				IBSC_MODULE = OneFlow;
-				INFOPLIST_FILE = "Target Support Files/OneFlow/ResourceBundle-OneFlow-OneFlow-Info.plist";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SkyBoxInApp/SkyBoxInApp-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SkyBoxInApp/SkyBoxInApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = OneFlow;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SkyBoxInApp/SkyBoxInApp.modulemap";
+				PRODUCT_MODULE_NAME = SkyBoxInApp;
+				PRODUCT_NAME = SkyBoxInApp;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C79B0E30A8BA08006228F43779356CAD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBA942D70B67070CCEF49DF777ACD982 /* OpenSSL-Universal.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		F3DA1A54ED2976CBA298E2BB71D3D572 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF66B22B9F456E3E562543D93EA93424 /* OneFlow.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/OneFlow";
-				IBSC_MODULE = OneFlow;
-				INFOPLIST_FILE = "Target Support Files/OneFlow/ResourceBundle-OneFlow-OneFlow-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = OneFlow;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		28BCE6881328279421E181071F65CD50 /* Build configuration list for PBXNativeTarget "SkyBoxInApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1286490221D1B69E2A9B1F0F90944276 /* Debug */,
+				E44265B2477798F0CADB55B32CD68C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433953BD416E93122EC23DB2F43164CD /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B316432AE60080CB059A79312DDEB67 /* Debug */,
+				D551795968AD2C24AD8F08002D53D45A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
-				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6952593853E5BD5AD43B1332FF06EF1C /* Build configuration list for PBXNativeTarget "Pods-OneFlow_Tests" */ = {
+		4A67B4FCBECE6989A7FF35AD9CC1225E /* Build configuration list for PBXNativeTarget "Pods-SkyBoxInApp_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0272F48B7568E0FF91D8ECC1C98E7C98 /* Debug */,
-				54C7D2DFC0CBF57BD3476407AF0E4465 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7D18A66DA86672EE95FC1EB59DC05E29 /* Build configuration list for PBXNativeTarget "Pods-OneFlow_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3E25A2C4384FB1BAD44CB2A36A55524E /* Debug */,
-				7F72D5A8FDD1C0447BF3EE426305044A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A8F6CC5A2AE931717F93BE97D695CFE /* Build configuration list for PBXNativeTarget "OneFlow" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				58BEA6DA56305D51356DB8985FD680DB /* Debug */,
-				7A0BEBD33C165CABFF0ACAE3AE032550 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9D48BB3AAACD5EF7477A1B60A7945806 /* Build configuration list for PBXNativeTarget "OneFlow-OneFlow" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C71B25B3CFAE09582FD8DED341176B12 /* Debug */,
-				F3DA1A54ED2976CBA298E2BB71D3D572 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F115BD35559DF5787CB829229E9F062E /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C79B0E30A8BA08006228F43779356CAD /* Debug */,
-				902D2D6EE8A69110402F876ACDB3C408 /* Release */,
+				CC9D98B50C62C5CF75E12EA104989172 /* Debug */,
+				A0A2CB0E53A4F164FB3DBB8F5E8D38E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
