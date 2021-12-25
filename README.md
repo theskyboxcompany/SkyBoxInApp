@@ -1,9 +1,9 @@
-# OneFlow
+# SkyBoxInApp
 
-[![CI Status](https://img.shields.io/travis/rohantryskybox/OneFlow.svg?style=flat)](https://travis-ci.org/rohantryskybox/OneFlow)
-[![Version](https://img.shields.io/cocoapods/v/OneFlow.svg?style=flat)](https://cocoapods.org/pods/OneFlow)
-[![License](https://img.shields.io/cocoapods/l/OneFlow.svg?style=flat)](https://cocoapods.org/pods/OneFlow)
-[![Platform](https://img.shields.io/cocoapods/p/OneFlow.svg?style=flat)](https://cocoapods.org/pods/OneFlow)
+[![CI Status](https://img.shields.io/travis/rohantryskybox/SkyBoxInApp.svg?style=flat)](https://travis-ci.org/rohantryskybox/SkyBoxInApp)
+[![Version](https://img.shields.io/cocoapods/v/SkyBoxInApp.svg?style=flat)](https://cocoapods.org/pods/SkyBoxInApp)
+[![License](https://img.shields.io/cocoapods/l/SkyBoxInApp.svg?style=flat)](https://cocoapods.org/pods/SkyBoxInApp)
+[![Platform](https://img.shields.io/cocoapods/p/SkyBoxInApp.svg?style=flat)](https://cocoapods.org/pods/SkyBoxInApp)
 
 ## Example
 
@@ -13,22 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-OneFlow is available through [CocoaPods](https://cocoapods.org). To install
+SkyBoxInApp is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
-
-source 'https://github.com/theskyboxcompany/1flow-specs'
-#Add below line if you are also using other public pods
-source 'https://github.com/CocoaPods/Specs.git'
-
-target 'OneFlowPodExample' do
-  use_frameworks!
-
-  pod 'OneFlow'
-end
+  pod 'SkyBoxInApp'
 ```
 - To validate the receipt locally, Library will require "AppleIncRootCertificate.cer" to be in main application bundle.
 To download the certificate Go to https://www.apple.com/certificateauthority/ and click on "AppleIncRootCertificate.cer". Once certificate is downloaded add it into your main bundle.
@@ -122,4 +111,4 @@ rohantryskybox, rohan@tryskybox.com
 
 ## License
 
-OneFlow is available under the MIT license. See the LICENSE file for more info.
+SkyBoxInApp is available under the MIT license. See the LICENSE file for more info.
